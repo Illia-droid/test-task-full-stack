@@ -1,0 +1,51 @@
+.header {
+  height: 80px;
+  background-color: rgba(23, 34, 52);
+}
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 24px 0 24px 80px;
+}
+.logo span {
+  color: white;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  margin-right: 80px;
+}
+
+.authButton {
+  display: inline-block;
+  width: 160px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  border: 1px solid rgba(178, 159, 126, 1);
+  border-radius: 5px;
+}
+.text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.authButtonSecondary .text {
+  color: rgba(178, 159, 126, 1);
+}
+.authButtonPrimary {
+  background-color: rgba(178, 159, 126, 1);
+}
+.authButtonPrimary .text {
+  color: rgba(255, 255, 255);
+}

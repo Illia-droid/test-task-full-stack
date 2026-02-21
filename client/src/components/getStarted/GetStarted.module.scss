@@ -1,0 +1,10 @@
+.getStarted {
+  min-height: calc(100vh - 80px);
+  background: url('./../../img/home-image.jpg') center -50px/ cover no-repeat;
+}
+
+@media (min-width: 1600px) {
+  .getStarted {
+    background-size: 100% 100%;
+  }
+}
